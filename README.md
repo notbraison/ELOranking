@@ -49,126 +49,9 @@ K-factor: 32 (moderate sensitivity)
 
 Outcome: Player B wins (S = 1 for Player B, 0 for Player A)
 
-Step 1: Calculate Expected Score
-For Player A:
+![alt text](image.png)
 
-E
-A
-​
-=
-1+10
-(1400−1600)/400
-
-1
-​
-=
-1+10
-−0.5
-
-1
-​
-=
-1+0.316
-1
-​
-=0.76
-
-For Player B:
-
-𝐸
-𝐵
-=
-1
-1
-
-- 10
-  (
-  1600
-  −
-  1400
-  )
-  /
-  400
-  =
-  1
-  1
-- 10
-  0.5
-  =
-  1
-  1
-- # 3.16
-  0.24
-  E
-  B
-  ​
-  =
-  1+10
-  (1600−1400)/400
-
-1
-​
-=
-1+10
-0.5
-
-1
-​
-=
-1+3.16
-1
-​
-=0.24
-Step 2: Update Ratings
-New rating for Player A:
-
-𝑅
-𝐴
-′
-=
-1600
-
-- 32
-  (
-  0
-  −
-  0.76
-  )
-  =
-  1600
-  −
-  24
-  =
-  1576
-  R
-  A
-  ′
-  ​
-  =1600+32(0−0.76)=1600−24=1576
-  New rating for Player B:
-
-𝑅
-𝐵
-′
-=
-1400
-
-- 32
-  (
-  1
-  −
-  0.24
-  )
-  =
-  1400
-- # 24
-  1424
-  R
-  B
-  ′
-  ​
-  =1400+32(1−0.24)=1400+24=1424
-  Final Result:
+Final Result:
 
 Player A drops from 1600 → 1576 (penalized for unexpected loss)
 Player B rises from 1400 → 1424 (rewarded for beating a stronger player)
@@ -200,7 +83,5 @@ we tryna make it universal
 
 AI models -
 
-
-
 The Problem
--Rank AI models according to different applications - e.g  which one can write better emails with less prompts (correctness , )
+-Rank AI models according to different applications - e.g which one can write better emails with less prompts (correctness , )
